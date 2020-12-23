@@ -1,0 +1,271 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
+
+/* UNVIVERAL SITE STYLING */
+
+body {
+  overflow-x: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.card .card-img-top {
+  border-radius: 0px;
+}
+
+.btn {
+  background-color: #011d33;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400 !important;
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #003767;
+  color: #fff;
+  font-style: italic;
+  font-weight: 700 !important;
+}
+
+#h1-carousel {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 60px !important;
+}
+
+@include (max-width: 480px) {
+  .h1-carousel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px !important;
+  }
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600 !important;
+}
+
+@include (max-width: 480px) {
+  #h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px !important;
+  }
+}
+
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 800 !important;
+}
+
+#main-nav {
+  background-image: linear-gradient(to top, #cccccc, #ffffff);
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #003767 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-2 {
+  background: url("../img/composites.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-3 {
+  background: url("../img/structural.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-4 {
+  background: url("../img/t-biscuit-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+.solutions {
+  min-height: 350px;
+}
+
+.card .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: auto;
+  background-color: #011d33;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 400 !important;
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.card .btn:hover {
+  background-color: #003767;
+  font-style: italic;
+  font-weight: 700 !important;
+}
+
+#products .tech-button {
+  background-color: #567d9b;
+  color: #fff;
+}
+
+#products .tech-button:hover {
+  background-color: #cccccc;
+  color: #fff;
+}
+
+#video-play {
+  position: relative;
+  min-height: 350px;
+  background: url("../img/t-biscuit-3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#page-header {
+  height: 615px;
+  background: url("../img/quality.jpg");
+  background-position: center;
+  background-attachment: scroll;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#contact-header {
+  height: 325px;
+  background: url("../img/t-biscuit-3.jpg");
+  background-position: center;
+  background-attachment: scroll;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#composites {
+  background-image: url(../img/composites.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#structural-systems {
+  background-image: url(../img/structural.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#about {
+  background-image: url(../img/structural.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: square;
+}
+
+#main-footer {
+  background-image: linear-gradient(to top, #011d33, #003767) !important;
+  min-height: 275px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#footer-links {
+  color: #fff !important;
+}
