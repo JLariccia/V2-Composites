@@ -28,7 +28,6 @@
 /* UNVIVERAL SITE STYLING */
 
 body {
-  color: #fff;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   line-height: 2.25rem;
@@ -54,6 +53,16 @@ body {
   }
 }
 
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600 !important;
+}
+
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600 !important;
+}
+
 .card .card-img-top {
   border-radius: 0px;
 }
@@ -77,16 +86,6 @@ body {
   font-weight: 700 !important;
 }
 
-h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 800 !important;
-}
-
-h3 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 800 !important;
-}
-
 #main-nav {
   background-image: linear-gradient(to top, #cccccc, #ffffff);
 }
@@ -103,7 +102,7 @@ h3 {
 }
 
 .carousel-item {
-  height: 525px;
+  height: 675px;
 }
 
 .carousel-image-1 {
@@ -181,7 +180,7 @@ h3 {
 #video-play {
   position: relative;
   min-height: 350px;
-  background: url("../img/t-biscuit-3.jpg");
+  background: url("../img/t-biscuit-2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 -300px;
