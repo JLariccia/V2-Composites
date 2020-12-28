@@ -182,7 +182,7 @@ h3 {
   color: #fff;
 }
 
-#video-play-section {
+#video-play {
   position: relative;
   min-height: 350px;
   background: url("../img/t-biscuit-3.jpg");
@@ -193,7 +193,7 @@ h3 {
   color: #fff;
 }
 
-#video-play-section a {
+#video-play a {
   color: #fff;
 }
 
