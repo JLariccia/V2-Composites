@@ -35,17 +35,17 @@ body {
 
 #h1-carousel {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 60px !important;
+  font-size: 55px !important;
   font-weight: 600;
 }
 
 .h1-carousel {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 60px !important;
+  font-size: 55px !important;
   font-weight: 600;
 }
 
-@include (max-width: 480px) {
+@include (max-width: 500px) {
   .h1-carousel {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 30px !important;
@@ -91,7 +91,7 @@ h3 {
 }
 
 .navbar .nav-link {
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
