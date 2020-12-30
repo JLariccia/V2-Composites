@@ -37,12 +37,14 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 55px !important;
   font-weight: 600;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
 }
 
 .h1-carousel {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 55px !important;
   font-weight: 600;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
 }
 
 @include (max-width: 500px) {
@@ -50,7 +52,14 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 30px !important;
     font-weight: 600;
+    text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
   }
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600 !important;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
 }
 
 h2 {
@@ -60,7 +69,25 @@ h2 {
 
 h3 {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600 !important;
+  font-weight: 800 !important;
+}
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400 !important;
+}
+
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400 !important;
+}
+
+a {
+  color: #011d33;
+}
+
+a :hover {
+  color: #567d9b;
 }
 
 .card .card-img-top {
@@ -103,6 +130,7 @@ h3 {
 
 .carousel-item {
   height: 675px;
+  background-size: cover;
 }
 
 .carousel-image-1 {
@@ -185,6 +213,7 @@ h3 {
   background-position: 0 -300px;
   text-align: center;
   color: #fff;
+  background-repeat: no-repeat;
 }
 
 #video-play a {
@@ -192,7 +221,7 @@ h3 {
 }
 
 #page-header {
-  height: 615px;
+  height: 675px;
   background: url("../img/quality.jpg");
   background-position: center;
   background-attachment: scroll;
@@ -217,8 +246,102 @@ h3 {
   background-repeat: no-repeat;
   background-attachment: sticky;
   background-size: cover;
-  min-height: 450px;
+  min-height: 675px;
   margin-bottom: 0px;
+}
+
+#t-biscuits {
+  background-image: url(../img/t-biscuit-hero.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 675px;
+  margin-bottom: 0px;
+}
+
+/* GALLERY */
+
+#gallery .carousel-item {
+  background: url(../img/);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: sticky;
+  min-width: 350;
+  min-height: fit-content;
+}
+
+#gallery .carousel-caption {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  -ms-transform: translate(-90%, -50%);
+  width: auto;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 300 !important;
+  text-shadow: 0px 2px 2px rgba(36, 35, 35, 0.9);
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+}
+
+#gallery .gallery-1 {
+  background: url(../img/cutting.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: sticky;
+  min-width: 350;
+  min-height: fit-content;
+}
+
+#gallery .gallery-2 {
+  background: url(../img/washing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: sticky;
+  min-width: 350;
+  min-height: fit-content;
+}
+
+#gallery .gallery-3 {
+  background: url(../img/mixing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: sticky;
+  min-width: 350;
+  min-height: fit-content;
+}
+
+#gallery .gallery-4 {
+  background: url(../img/epoxy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: sticky;
+  min-width: 350;
+  min-height: fit-content;
+}
+
+#gallery .gallery-5 {
+  background: url(../img/insert.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: sticky;
+  min-width: 350;
+  min-height: fit-content;
+}
+
+#gallery .gallery-6 {
+  background: url(../img/finished.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: sticky;
+  min-width: 350;
+  min-height: fit-content;
 }
 
 #structural-systems {
@@ -227,7 +350,17 @@ h3 {
   background-repeat: no-repeat;
   background-attachment: sticky;
   background-size: cover;
-  min-height: 450px;
+  min-height: 675px;
+  margin-bottom: 0px;
+}
+
+#tech-data {
+  background-image: url(../img/tech-data.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 375px;
   margin-bottom: 0px;
 }
 
@@ -237,7 +370,7 @@ h3 {
   background-repeat: no-repeat;
   background-attachment: sticky;
   background-size: cover;
-  min-height: 450px;
+  min-height: 675px;
   margin-bottom: 0px;
 }
 
