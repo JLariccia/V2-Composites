@@ -170,7 +170,7 @@ a :hover {
   min-height: 350px;
 }
 
-.card .btn {
+.homecard .btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -342,6 +342,11 @@ a :hover {
   background-attachment: sticky;
   min-width: 350;
   min-height: fit-content;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #567d9b;
 }
 
 #structural-systems {
